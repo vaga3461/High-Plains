@@ -1,0 +1,30 @@
+---
+title: "TITLE"
+subtitle: "SUBTITLE"
+author: "AUTHOR"
+date: "Last knitted `r format(Sys.Date(), '%d %b %Y')`"
+output:
+  html_document: 
+    df_print: paged
+    number_sections: yes
+    toc: yes
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+editor_options:
+  chunk_output_type: inline
+---
+
+> Click into a code cell (the gray blocks below) to select or edit it. To run a selected code cell, hit `Ctrl`+`Shift`+`Enter` (Windows & Linux) / `Command`+`Shift`+`Enter` (MacOS). Make sure that each code cell runs successfully before you move on to the next one.
+
+```{r, include = FALSE, message = FALSE}
+# required behind the scenes to find the correct python installation
+library(reticulate)
+
+# include the following command to activate a specific conda environment:
+use_condaenv(condaenv = "class", required = TRUE)
+
+# note that this may get stuck knitting automatically in RStudio but will work 
+# if you knit manually using the following command from the console:
+#rmarkdown::render("example_python_in_rstudio.Rmd")
+```

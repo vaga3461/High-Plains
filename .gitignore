@@ -1,0 +1,58 @@
+# GIT ignore commands for the entire project
+
+# exclude output files
+*.rds
+*.rda
+*.pdf
+*.html
+*.png
+*.jpeg
+*.jpg
+*.pptx
+*.docx
+*.xlsx
+*.csv
+
+# explicitly allow all files in data (by default)
+!data/**/*
+
+# allow all files in documents (by default)
+!documents/**/*
+
+# allow all files in presentations (by default)
+!presentations/**/*
+
+# allow all files in docs
+!docs/**/*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+~$*
+.Spotlight*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# exclude R & Rstudio temp files
+*.utf8.md
+*.knit.md
+.Rproj.user
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rbuildignore
+packrat/lib*/
+packrat/src/
+
+# exclude Python and Jupyter temp files
+.ipynb_checkpoints
+*.pyc
+
+# exclude authentication tokens
+.httr-oauth
+
+# exclude cache
+*cache/*

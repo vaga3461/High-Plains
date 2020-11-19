@@ -1,0 +1,3 @@
+# GIT ignore commands for the presentations directory
+# list any files or folders that you want to prevent from getting added to GitHub (does not automatically remove files from GitHub if they are already added!)
+# one file/folder per line, file name patterns using * wildcard also work
