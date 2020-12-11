@@ -1,11 +1,13 @@
-# Template
+# Welcome
 
-This is a project template. To use it, click on the green `Use this template` button, select your own account as the owner, give it an informative `Repository name`, and select `Private` if you want to keep the data and analyses private until they are ready for publication. Then hit `Create repository from template` and wait a few seconds for the repository to get generated.
+This document will be updated regularly to include most current information as this project progresses. This is also where you can find examples (after the model actually works)
 
-# Making it public
+# Goals
+- To write a model that calculates erosion and deposition across a 1D river profile
+- To encapsulate that model as a Python class within a function that can be imported into a notebook (this means that a user will not have to see all the messy, under-the-hood code)
+- To define functions that represent different styles of tectonic uplift and tilting, which can also be imported into a notebook
 
-To make your entire repository public, go to your repository settings, scroll down to the `Danger Zone` and click on `Make Public`. If you do this, everything in your repository that is synched to github will be publicly available.
-
-# Generating a website for your repo
-
-Alternatively (or in addition), you can make rendered versions (i.e. HTML files) of your notebooks easily available to the public as a GitHub-hosted (=free) website. This is nice if you want to let people see your fully compiled RMarkdown and Jupyter notebook reports. For an example of what this looks like for this template repository, go to https://cub-computational-tools.github.io/assignment_project/. For details on how to do these, take a look at the [`docs`](docs) folder.
+## How to Use
+- Import an uplift function from `functions.py`
+- Import the model from `model.py`
+- Only requires basic Python libraries (numpy and matplotlib)
