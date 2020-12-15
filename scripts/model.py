@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+# this script only knows the down_to_east function if you import it
+from scripts.functions import down_to_east
 
 class erosion_model(object):
     
@@ -31,6 +33,7 @@ class erosion_model(object):
         print('it works!')
         
     def run_one_step(self):
+        # this doesn't seem to work because z is a single value so diff fails
         dzdx = np.diff(self.z)/dx
         absolute = np.abs(dzdx)
         self.erosion = self.erodibility*(self.area[1:]**self.m)*(dzdx**self.n)
@@ -42,7 +45,10 @@ class erosion_model(object):
     def run_n_steps(self, n):
         for i in range(n):
             self.run_one_step()
-            
+    
+    def run_model(self):
+        print("testing the 'run_model' function")
+        print("member variable z: %.1f" % self.z)
             
 #     def run_model(self,
 #                   channel_length = 1000,
