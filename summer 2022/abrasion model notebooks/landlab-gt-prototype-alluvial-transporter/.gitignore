@@ -1,0 +1,132 @@
+.DS_Store
+.ipynb_checkpoints
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# Vim
+*~
+*.swp
+*.swo
+
+test-results.xml
+
+*.gif
+
+*.p
+
+*.pdf
+!docs/**/*.pdf
+!joss/**/*.pdf
+
+*.png
+!docs/**/*.png
+!joss/**/*.png
+
+*.aux
+
+*.synctex.gz
+
+.hypothesis/
+
+installfiles.txt
+
+# Ignore all .c files as, currently, they are all cython generated.
+*.c
+
+landlab/io/mysave.grid
+
+docs/auto_grid_info__BCs.rst
+
+docs/auto_grid_info__cells.rst
+
+docs/auto_grid_info__corners.rst
+
+docs/auto_grid_info__faces.rst
+
+docs/auto_grid_info__grads.rst
+
+docs/auto_grid_info__links.rst
+
+docs/auto_grid_info__mappers.rst
+
+docs/auto_grid_info__nodes.rst
+
+docs/auto_grid_info__patches.rst
+
+docs/auto_grid_info__subsets.rst
+
+docs/auto_grid_info__surf.rst
+
+docs/auto_grid_info__whole.rst
+
+landlab/components/spatial_precip/Durations_summer.csv
+
+landlab/components/spatial_precip/Durations_winter.csv
+
+\.pytest_cache/README\.md
+
+\.pytest_cache/v/cache/lastfailed
+
+\.pytest_cache/v/cache/nodeids
+
+
+\.pytest_cache/v/cache/
+
+docs/build_log.txt
+
+.eggs/README.txt
+
+
+# Hypothesis
+.hypothesis
