@@ -3,15 +3,7 @@
 # exclude output files
 *.rds
 *.rda
-*.pdf
 *.html
-*.png
-*.jpeg
-*.jpg
-*.pptx
-*.docx
-*.xlsx
-*.csv
 
 # explicitly allow all files in data (by default)
 !data/**/*
