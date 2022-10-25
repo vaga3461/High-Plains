@@ -1,0 +1,12 @@
+b = np.zeros(len(x)) # channel width, m,
+Eb_p = np.zeros(len(x)) # plucking rate, m/yr,
+Eb_a = np.zeros(len(x)) # abrasion rate, m/yr,
+Eb = np.zeros(len(x)) # bedrock erosion rate, m/yr,
+Eh = np.zeros(len(x)) # sediment erosion rate, m/yr,
+E = np.zeros(len(x)) # total erosion rate, m/yr,
+q = np.zeros(len(x)) # unit discharge, m^2/yr,
+Qs = np.zeros(len(x)) # total sediment transport, m^3/yr,
+qs = np.zeros(len(x)) # unit sediment transport, m^2/yr,
+ql = np.zeros(len(x)) # lateral sediment supply, m^2/yr,
+E_vals = np.zeros((2, len(x))) # store current and past erosion rates in this array, m/yr,
+E_avg = np.zeros(len(x)) # weighted average erosion rates, m/yr
