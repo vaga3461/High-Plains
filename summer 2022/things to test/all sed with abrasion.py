@@ -92,3 +92,18 @@ slope, Qs, E, dzdt, model_z, dt = all_sed_attrition(*test)
 # calc the slope with the analytical soln
 
 slope_pred = ((U * B[1:] * x[1:] * (1 - phi))/(1 + (beta * x[1:])) * 1/(kqs*I*Q[1:]))**(6/7)
+
+#%%
+line = (-slope_pred * x[1:]) + model_z[0]
+
+#%%
+# make a comparison plot
+
+plt.plot(x, model_z)
+plt.plot(x[1:], line)
+
+
+
+
+
+

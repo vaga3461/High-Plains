@@ -107,8 +107,8 @@ line = (-slope * x) + model_z[0]
 #%%
 # make a comparison plot
 
-### plt.plot(x, model_z)
-### plt.plot(x, line)
+plt.plot(x, model_z)
+plt.plot(x, line)
 
 
 
